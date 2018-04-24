@@ -1,0 +1,17 @@
+---
+title: "Interstellar"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+source("exercise.R")
+```
+
+## `r headline`
+
+Below is the summary about `r movie_name` from the New York Times API
+
+> `r short_summary`
+
+Follow [this link](`r link`) in the 2016 US Presidential elections
